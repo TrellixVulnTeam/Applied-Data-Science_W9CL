@@ -1,1 +1,1 @@
-# DS-Practise
+# Applied-Data-Science
