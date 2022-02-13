@@ -1,0 +1,14 @@
+prefix=/home/varun/Documents/Beta/Ml-Course/env
+exec_prefix=/home/varun/Documents/Beta/Ml-Course/env
+libdir=/home/varun/Documents/Beta/Ml-Course/env/lib
+includedir=/home/varun/Documents/Beta/Ml-Course/env/include
+
+Name: FreeType 2
+URL: https://freetype.org
+Description: A free, high-quality, and portable font engine.
+Version: 24.0.18
+Requires:
+Requires.private: zlib, libpng
+Libs: -L${libdir} -lfreetype
+Libs.private: 
+Cflags: -I${includedir}/freetype2
